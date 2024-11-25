@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.app-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.background-home{
+  background-image: url("/assets/home/background-home-desktop.jpg");
+  
+}
+.background-destination{
+  background-image: url("/assets/destination/background-destination-desktop.jpg");
+  
+}
+.background-crew{
+  background-image: url("/assets/crew/background-crew-desktop.jpg");
+  
+}
+.background-technology{
+  background-image: url("/assets/technology/background-technology-desktop.jpg");
+  
+}
+.background-default{
+  background-color: aqua;
+}
+
+header {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 30%;
+  top: 3em;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
